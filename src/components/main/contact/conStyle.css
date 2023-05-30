@@ -1,0 +1,123 @@
+.contact {  
+    display: grid;
+    background-image: url('../../../images/cont.png'), url('../../../images/contCenter.png'), url('../../../images/contact.png');
+    background-repeat: no-repeat;
+    background-size: 50%, 30%, 50%;
+    background-position-x: -30%, 45%, 130%;
+    background-position-y: 80%, 130%, 10%;
+    grid-template-columns: 0.5fr 1.7fr 0.4fr 1.9fr 0.5fr;
+    grid-template-rows: 0.4fr 2.3fr 0.3fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . . . ."
+      ". formulario . info ."
+      ". . . . .";
+}
+  
+.contact-form { 
+    grid-area: formulario;
+    color: #000;
+}
+
+.contact-form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+.contact-form label {
+    color: black;
+}
+  
+.contact-form .heading {
+    font-size: 24px;
+    color: black;
+    ;
+    margin-bottom: 12px;
+    font-weight: bold;
+    display: block;
+}
+  
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+  
+.contact-form label {
+    margin-bottom: 10px;
+}
+  
+textarea {
+    resize: none;
+    height: 80px;
+    width: 200px;
+}
+  
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.contact-form textarea{
+    width: 95%;
+}
+  
+.contact-form input:focus, .contact-form textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px #2d6979;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+  
+.contact-form button[type="submit"] {
+    background-color: #2d6979;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+  
+.contact-form button[type="submit"]:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.info { 
+    grid-area: info;
+    margin-top: 60px;
+    width: 700px;
+    height: 350px;
+    border-radius: 50px;
+    background: #f0f0f0;
+    box-shadow: 20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+}
+
+.tittleI{
+    color: #000;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 98%;
+    font-size: 26px;
+    margin-left: 35px;
+}
+
+.textI{
+    color: #000;
+    margin-left: 35px;
+    margin-right: 60px;
+    font-size: 24px;
+}
+
+.tittle{
+    color: black;
+}
+
+.text {
+    color: black;
+}

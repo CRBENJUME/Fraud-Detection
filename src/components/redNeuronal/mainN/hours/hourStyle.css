@@ -1,0 +1,78 @@
+.hours { 
+    grid-area: hours;
+    height: 250px;
+    width: 100%;
+}
+
+.title {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    margin-top: 15%;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+  
+.textH {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-weight: 200;
+    letter-spacing: 2px;
+    opacity: 0;
+    max-height: 0;
+    transition: all 0.3s ease;
+}
+
+.hours:hover .textH {
+    transition: all 0.3s ease;
+    opacity: 1;
+    max-height: 40px;
+}
+
+.hours:hover .title{
+    margin-top: 5%;
+}
+
+.cardH{
+    margin: 0 auto;
+    background-color: #011522;
+    border-radius: 15px;
+    z-index: 1;
+}
+   
+.toolsH {
+    display: flex;
+    align-items: center;
+    padding: 9px;
+}
+   
+.circleH {
+    padding: 0 4px;
+}
+   
+.boxH {
+    display: inline-block;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+    border-radius: 50%;
+   }
+   
+.redH {
+    background-color: #ff605c;
+}
+   
+.yellowH {
+    background-color: #ffbd44;
+}
+   
+.greenH {
+    background-color: #00ca4e;
+}

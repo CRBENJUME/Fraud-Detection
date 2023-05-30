@@ -1,0 +1,30 @@
+.about {
+    height: 450px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    background-color: #F3F4F6; 
+    display: grid;
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 0.6fr 0.3fr 2.5fr 1.4fr 1.4fr 1.2fr 0.2fr 0.4fr; 
+    grid-template-rows: 0.5fr 1fr 0.3fr 2.2fr 1.4fr 0.6fr; 
+    gap: 0px 0px; 
+    grid-template-areas:
+      ". . . . . . . ."
+      ". . . tittleAbout tittleAbout . . ."
+      ". . . . . . . ."
+      ". . textAbout textAbout textAbout textAbout . ."
+      ". . textAbout textAbout textAbout textAbout . ."
+      ". . . . . . . .";
+}
+
+.tittleAbout { 
+    grid-area: tittleAbout;
+    color: #000;
+}
+  
+.textAbout { 
+    grid-area: textAbout; 
+    padding-left: 30px;
+    padding-right: 20px;
+    color: black;
+}

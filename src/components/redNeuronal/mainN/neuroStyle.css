@@ -1,0 +1,24 @@
+p{
+    color:rgba(255, 255, 255, 0.5); 
+}
+
+.neuro {
+    display: grid;
+    padding-top: 1%;
+    background-image: url("../../../images/graph.png"), url("../../../images/graph1.png"), url("../../../images/wave1.png");
+    background-size: auto, auto, 100%;
+    background-position-y: -60%, -80px, 130%;
+    background-position-x: 15%, 90%, center;
+    margin-bottom: -1%;
+    background-repeat: no-repeat;
+    padding-left: 2%;
+    padding-right: 2%;
+    grid-template-columns: 1.3fr 0.5fr 1.3fr 0.6fr 1.3fr; 
+    grid-template-rows: 1.7fr 0.3fr 0.7fr 0.2fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "graph . total1 . sospechosas"
+      ". . . . ."
+      "hours . archivo . ."
+      ". . . . ."; 
+}

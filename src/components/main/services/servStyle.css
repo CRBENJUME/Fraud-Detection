@@ -1,0 +1,164 @@
+.services {  
+    display: grid;
+    background-image: url("../../../images/graphS.png"), url("../../../images/graphS1.png");
+    background-repeat: no-repeat;
+    background-size: 50%, 70%;
+    background-position-x: -15%, 140%;
+    background-position-y: -140%, -130%, -10%;
+    grid-template-columns: 0.5fr 1.8fr 0.4fr 1.9fr 0.4fr 1.5fr 0.5fr;
+    grid-template-rows:  0.5fr 0.7fr 0.1fr 3.4fr 0.3fr; ;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . . . . . ."
+      ". . . tittle . . ."
+      ". . . . . . ."
+      ". deteccion . verificacion . supervision ."
+      ". . . . . . .";
+  }
+  
+.tittleS { 
+    grid-area: tittle; 
+    color: black;
+    padding-left: 25%;
+    font-size: 56px;
+}
+
+.tittleVerif{
+    color: #000;
+    margin-left: 20%;
+}
+
+.tittleV{
+    color: #000;
+    margin-left: 28%;
+}
+
+.tittleDetec{
+    color: #000;
+    margin-left: 20px;
+}
+
+.tittle{
+    margin-left: 20%;
+}
+  
+.deteccion { 
+    grid-area: deteccion;
+    background: #fff;
+    border: 3px solid #000;
+    width: 400px;
+    height: 550px;
+    padding-left: 15px;
+    border-radius: 0;
+    box-shadow: 15px 15px 0 -2.5px #bebebe, 15px 15px 0 0 #000;
+}
+  
+.verificacion { 
+    grid-area: verificacion; 
+    background: #fff;
+    padding-left: 15px;
+    padding-right: 20px;
+    border: 3px solid #000;
+    border-radius: 0;
+    box-shadow: 15px 15px 0 -2.5px #bebebe, 15px 15px 0 0 #000;
+}
+
+.cta {
+    position: relative;
+    margin: auto;
+    padding: 12px 18px;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+}
+   
+.cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 50px;
+    background: #b1dae7;
+    width: 45px;
+    height: 45px;
+    transition: all 0.3s ease;
+}
+   
+.cta span {
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #234567;
+}
+   
+.cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #234567;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+}
+   
+.cta:hover:before {
+    width: 100%;
+    background: #b1dae7;
+}
+   
+.cta:hover svg {
+    transform: translateX(0);
+}
+   
+.cta:active {
+    transform: scale(0.95);
+}
+  
+.supervision { 
+    grid-area: supervision; 
+    width: 400px;
+    background: #fff;
+    border: 3px solid #000;
+    border-radius: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 15px 15px 0 -2.5px #bebebe, 15px 15px 0 0 #000;
+}
+
+
+.dete{
+    margin-top: 13%;
+}
+
+.veri {
+    margin-top: 6%;
+}
+
+.super{
+    margin-top: 7%;
+}
+
+.supervision .image{
+    margin-left: 2%;
+}
+
+img{
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 200px;
+    width: 380px;
+}
+
+.text{
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 95%;
+    text-align: justify;
+}

@@ -1,0 +1,53 @@
+.graph { 
+    color: #000000;
+    grid-area: graph;
+    width: 380px;
+}
+
+.textG{
+    width: 100%;
+    padding-left: 15%;
+}
+
+.textG2{
+    padding-left: 35%;
+    margin-bottom: 10px;
+}
+
+.cardG {
+    margin: 0 auto;
+    background-color: #011522;
+    border-radius: 15px;
+    z-index: 1;
+}
+   
+.cardG .toolsG {
+    display: flex;
+    align-items: center;
+    padding: 9px;
+}
+   
+.cardG .circleG {
+    padding: 0 4px;
+}
+   
+.cardG .boxG {
+    display: inline-block;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+    border-radius: 50%;
+   }
+   
+.cardG .redG {
+    background-color: #ff605c;
+}
+   
+.yellowG {
+    background-color: #ffbd44;
+}
+   
+.greenG {
+    background-color: #00ca4e;
+}

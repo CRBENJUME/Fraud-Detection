@@ -1,0 +1,82 @@
+.sospechosas { 
+    grid-area: sospechosas;
+    color: #F3F4F6;
+    margin-top: 20%;
+    margin-left: -10%;
+    width: 380px;
+    height: 250px;
+}
+
+.sospechosas .title {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    margin-top: 15%;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+  
+.sospechosas .textH {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-weight: 300;
+    letter-spacing: 2px;
+    opacity: 0;
+    max-height: 0;
+    transition: all 0.3s ease;
+}
+
+.sospechosas:hover .textH {
+    transition: all 0.3s ease;
+    opacity: 1;
+    max-height: 40px;
+}
+
+.sospechosas:hover .title{
+    margin-top: 5%;
+}
+
+.cardS {
+    margin: 0 auto;
+    margin-top: 20%;
+    background-color: #011522;
+    border-radius: 15px;
+    z-index: 1;
+}
+   
+.toolsS {
+    display: flex;
+    align-items: center;
+    padding: 9px;
+}
+   
+.circleS {
+    padding: 0 4px;
+}
+   
+.boxS{
+    display: inline-block;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+    border-radius: 50%;
+   }
+   
+.redS {
+    background-color: #ff605c;
+}
+   
+.yellowS {
+    background-color: #ffbd44;
+}
+   
+.greenS {
+    background-color: #00ca4e;
+}

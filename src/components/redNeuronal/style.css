@@ -1,0 +1,19 @@
+.bodyCom{
+    width: 100%;
+}
+.container {
+    background-color: #201E30;
+    display: flex;
+    height: 100px;
+    width: 95.35%;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 2.58%;
+    padding-left: 2%;
+}
+
+.container p {
+    color: #fff;
+    font-size: 26px;
+    font-family: 'Times New Roman', Times, serif;
+}
